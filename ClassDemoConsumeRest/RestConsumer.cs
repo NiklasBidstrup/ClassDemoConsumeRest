@@ -21,7 +21,7 @@ namespace ClassDemoConsumeRest
             IList<RestData> all = GetAll();
             foreach (RestData data in all)
             {
-                //Console.WriteLine(data);
+                Console.WriteLine(data);
             }
 
             RestData one = GetOne(12);
